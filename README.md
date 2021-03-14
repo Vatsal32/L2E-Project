@@ -24,5 +24,5 @@ You can find the documentation of all the commands <a href="http://login2explore
 
 ## Screenshots:
 * Home Page
-  <a src="screenshots/home_page.jpg"></a>
+  ![home_page](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/home_page.jpg?raw=true)
 
