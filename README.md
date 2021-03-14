@@ -7,7 +7,7 @@ The functions that can be performed are:
 * Viewing a record in the Database.
 
 You can find the documentation of all the commands <a href="http://login2explore.com/jpdb/docs.html">here</a>.<br>
-You can access the project <a href="publichtml/index.html">here</a>.
+You can access the project <a href="public_html/index.html">here</a>.
 
 ## About JSON Power DB:
 * JsonPowerDB is a Database Server with Developer friendly REST API services. 
