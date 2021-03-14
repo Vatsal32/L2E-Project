@@ -25,4 +25,11 @@ You can find the documentation of all the commands <a href="http://login2explore
 ## Screenshots:
 * Home Page
   ![home_page](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/home_page.jpg?raw=true)
-
+* Adding Record:
+  ![add_Record](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/add_Record.jpg?raw=true)
+* Delete Record:
+  ![del_Record](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/del_Record.jpg?raw=true)
+* Update Record:
+  ![upd_Record](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/upd_Record.jpg?raw=true)
+* View Record:
+  ![see_Record](https://github.com/Vatsal32/L2E-Project/blob/master/screenshots/see_Record.jpg?raw=true)
