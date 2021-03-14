@@ -3,31 +3,38 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$("#empId").focus();
+$("#rollno").focus();
 
 function validateData() {
-    var empIdVar = $("#empId").val();
-    if (empIdVar === "") {
-        alert("Employee ID is required. ");
+    var rollnoVar = $("#rollno").val();
+    if (rollnoVar === "") {
+        alert("Roll No. is required. ");
         return "";
     }
 
-    var empNameVar = $("#empName").val();
-    if (empNameVar === "") {
-        alert("Employee Name is required. ");
+    var stuNameVar = $("#stuName").val();
+    if (stuNameVar === "") {
+        alert("Student Name is required. ");
         return "";
     }
 
-    var empEmailVar = $("#empEmail").val();
-    if (empEmailVar === "") {
-        alert("Employee Email is required. ");
+    var stuEmailVar = $("#stuEmail").val();
+    if (stuEmailVar === "") {
+        alert("Student Email is required. ");
         return "";
+    }
+    
+    var stuCourseVar = $("#stuCourse").val();
+    if (stuCourseVar === "") {
+        alert("Student Course is required. ");
+        return;
     }
 
     var jsonStrObj = {
-        empId: empIdVar,
-        empName: empNameVar,
-        empEmail: empEmailVar
+        rollno: parseInt(rollnoVar),
+        stuName: stuNameVar,
+        stuCourse: stuCourseVar,
+        stuEmail: stuEmailVar
     };
 
     return JSON.stringify(jsonStrObj);
@@ -52,10 +59,11 @@ function createPUTQuery(token, dbname, rel, jsonStr) {
 }
 
 function resetForm() {
-    $("#empId").val("");
-    $("#empName").val("");
-    $("#empEmail").val("");
-    $("#empId").focus();
+    $("#rollno").val("");
+    $("#stuName").val("");
+    $("#stuEmail").val("");
+    $("#stuCourse").val("");
+    $("#rollno").focus();
 }
 
 function execute(reqStr, baseUrl, apiUrl) {
@@ -71,18 +79,20 @@ function execute(reqStr, baseUrl, apiUrl) {
     return jsonObj;
 }
 
-function saveEmployee() {
+function saveStudent() {
     var jsonStr = validateData();
     if (jsonStr === "") {
         alert("ERROR. ");
         return;
     }
-    // alert(jsonStr);
-    var putQuery = createPUTQuery("90935793|-31948838436345743|90934646", "db", "emp-rel", jsonStr);
+    //  alert(jsonStr);
+    var putQuery = createPUTQuery("90935793|-31948838436345743|90934646", "Student", "stu-rel", jsonStr);
     alert(putQuery);
     jQuery.ajaxSetup({async: false});
     var resultObj = execute(putQuery, "http://api.login2explore.com:5577", "/api/iml");
     alert(JSON.stringify(resultObj));
     jQuery.ajaxSetup({async: true});
+    
+    resetForm();
 }
 

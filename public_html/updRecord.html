@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Update Record</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1 style="font-family:arial;">&emsp;&ensp;Enter the updated Details</h1>
+        <div class="container" style="font-family:arial;">
+            <form id="stuForm" method="post">
+                    <label for="rollno">Roll No.: </label>
+                    <p> </p>
+                    <input type="text" class="form-control" name="rollno" id="rollno" placeholder="Roll No." required>
+                    <p> </p>
+                    
+                    <label for="stuName">Student Name: </label>
+                    <p> </p>
+                    <input type="text" class="form-control" name="stuName" id="stuName" placeholder="Student Name">
+                    <p> </p>
+                    
+                    <label for="stuCourse">Course: </label>
+                    <p> </p>
+                    <input type="text" class="form-control" name="stuCourse" id="stuCourse" placeholder="Scourse">
+                    <p> </p>
+                    
+                    <label for="stuEmail">Student Email: </label>
+                    <p> </p>
+                    <input type="text" class="form-control" name="stuEmail" id="stuEmail" placeholder="Student Email">
+                    <p> </p>
+                    
+                <input type="button" class="btn btn-primary" id="empSave" value="Save" onclick="saveStudent();">
+            </form>
+        </div>
+        
+        <script src="scripts/scriptUpd.js"></script>
+    </body>
+</html>

@@ -34,10 +34,18 @@ input[type="button"]:hover {
 }
 
 div {
-    position: absolute;
-    left: 67px;
-    width: 90%;
+    margin: auto;
+    width: 60%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.centre{
+    width: 60%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
 }

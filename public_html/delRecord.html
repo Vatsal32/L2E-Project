@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Delete Record</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+        
+    </head>
+    <body>
+        <h1>Delete Data</h1>    
+        <div class="container" style="font-family:arial;">
+            <form id="stuForm" method="post">
+                <label for="rollno">Roll No.</label>
+                <input type="text" id="rollno" name="rollno" placeholder="Roll No."/>
+                <input type="button" class="btn btn-primary" id="delRecord" onclick="delData();" value="Delete Record">
+            </form>
+        </div>
+        
+        <script src="scripts/scriptDel.js"></script>
+    </body>
+</html>

@@ -4,39 +4,26 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="en">
+<html>
     <head>
-        <title>Add Record</title>
+        <title>Welcome to JSON Power DB</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css" type="text/css"/>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js​"></script>
     </head>
     <body>
-        <h1 style="font-family:arial;">&emsp;&ensp;Enter the Details</h1>
-        <div class="container" style="font-family:arial;">
-            <form id="empForm" method="post">
-                    <label for="empId">Employee ID: </label>
-                    <p> </p>
-                    <input type="text" class="form-control" name="empId" id="empId" placeholder="Employee ID" required>
-                    <p> </p>
-                    
-                    <label for="empName">Employee Name: </label>
-                    <p> </p>
-                    <input type="text" class="form-control" name="empName" id="empName" placeholder="Employee Name">
-                    <p> </p>
-                    
-                    <label for="empEmail">Employee Email: </label>
-                    <p> </p>
-                    <input type="text" class="form-control" name="empEmail" id="empEmail" placeholder="Employee ID" required>
-                    <p> </p>
-                    
-                <input type="button" class="btn btn-primary" id="empSave" value="Save" onclick="saveEmployee();">
-            </form>
+        <h1>Welcome to JSON Power DB</h1>
+        <div class="centre">
+            <a href="addRecord.html" style="font-size: 20px;"> Add a Record to DataBase. </a>
+            <br><br>
+            <a href="delRecord.html" style="font-size: 20px;"> Delete a Record. </a>
+            <br><br>
+            <a href="updRecord.html" style="font-size: 20px;"> Update a Record. </a>
+            <br><br>
+            <a href="shoRecord.html" style="font-size: 20px;"> See a Record. </a>
         </div>
-
-        <script src="script.js"> </script>
     </body>
 </html>
