@@ -15,10 +15,10 @@ You can find the documentation of all the commands <a href="http://login2explore
 ## Benefits of using JSON Power DB:
 * Available as shared environment or as independent server on Internet / Intranet / Extranet / Cloud.
 * Can support over a million indexed columns in a single instance spread across users and databases.
-* Allows querying multiple databases which is as simple and fast as querying on single database.
+* Querying multiple databases which is as simple and fast as querying on single database.
 * Minimum learning curves, builds faster, cuts time to market, reduces the development cost.
 * Native Server Side NoSQL, suitable for high performance real-time data processing.
 * Schema-free, Simple to use, Nimble and In-Memory database.
 * Helps developers in faster coding, in-turn reduces development cost.
-* JsonPowerDB is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
+* Built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
 
