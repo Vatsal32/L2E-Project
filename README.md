@@ -22,3 +22,7 @@ You can find the documentation of all the commands <a href="http://login2explore
 * Helps developers in faster coding, in-turn reduces development cost.
 * Built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
 
+## Screenshots:
+* Home Page
+  <a src="screenshots/home_page.jpg"></a>
+
